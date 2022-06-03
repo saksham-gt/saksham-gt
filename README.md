@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning JavaScript and Kotlin.
 - 👯 I’m looking to collaborate on interesting open-source projects.
 - 💬 Ask me about Dart/Flutter anytime.
-- 📫 How to reach me: [Twitter](https://www.twitter.com/sakshamgupta392) & [LinkedIn](https://www.linkedin.com/in/sudo-saksham)
+- 📫 How to reach me: [![Twitter](https://user-images.githubusercontent.com/55953830/171819574-afefef1a-3973-48bc-abbf-c96b670953ee.gif)](https://www.twitter.com/sakshamgupta392) & [![LinkedIn](https://user-images.githubusercontent.com/55953830/171818642-4c29e83c-02e6-4297-8a4d-539715f25cc2.gif)](https://www.linkedin.com/in/sudo-saksham)
 - 😄 Pronouns: He/Him
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=sudo-saksham&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
