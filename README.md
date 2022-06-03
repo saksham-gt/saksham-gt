@@ -14,10 +14,12 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning JavaScript and Kotlin.
 - 👯 I’m looking to collaborate on interesting open-source projects.
 - 💬 Ask me about Dart/Flutter anytime.
-- 📫 How to reach me: [![Twitter](https://user-images.githubusercontent.com/55953830/171819574-afefef1a-3973-48bc-abbf-c96b670953ee.gif)](https://www.twitter.com/sakshamgupta392) & [![LinkedIn](https://user-images.githubusercontent.com/55953830/171818642-4c29e83c-02e6-4297-8a4d-539715f25cc2.gif)](https://www.linkedin.com/in/sudo-saksham)
+<!-- - 📫 How to reach me: [<img src="https://user-images.githubusercontent.com/55953830/171826102-2592a222-208a-4cbb-ae54-4cb0eb131397.jpg" height="30px" width="30px">](https://www.twitter.com/sakshamgupta392) & [![LinkedIn]<img src="https://user-images.githubusercontent.com/55953830/171822038-ecb1e30c-8b12-45a5-bd41-874cff77574c.gif" height="30px" width="30px">](https://www.linkedin.com/in/sudo-saksham) -->
+
+
 - 😄 Pronouns: He/Him
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=sudo-saksham&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=glitchpop-frenzy&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
 <!--
 - ⚡ Fun fact: 
