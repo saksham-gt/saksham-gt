@@ -1,5 +1,7 @@
-![banner1](https://images.weserv.nl/?url=https://user-images.githubusercontent.com/55953830/171810767-eb2fde89-1e5c-4abc-a681-ffe0f3dc6fdd.png&w=700&h=275&fit=contain&trim)
+![banner1](https://images.weserv.nl/?url=https://user-images.githubusercontent.com/55953830/171988157-6c89b8bd-2c6f-4375-8001-61230d1c09ac.png&w=700&h=275&fit=contain&trim)
 
+<!-- (https://images.weserv.nl/?url=https://user-images.githubusercontent.com/55953830/171810767-eb2fde89-1e5c-4abc-a681-ffe0f3dc6fdd.png&w=700&h=275&fit=contain&trim)
+ -->
 <!--
 (https://images.weserv.nl/?url=https://user-images.githubusercontent.com/55953830/171807075-5047a92b-80a2-4caf-a524-48d4d6785557.png&w=700&h=300&fit=contain&trim)
 -->
@@ -22,5 +24,8 @@ Here are some ideas to get you started:
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=glitchpop-frenzy&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
 <!--
-- ⚡ Fun fact: 
+- ⚡ Fun fact: ![header]()
+![header]()
+![header]()
+
 -->
