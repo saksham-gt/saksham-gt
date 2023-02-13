@@ -2,8 +2,10 @@
 
 ### Hi there 👋
 
-- 🔭 I’m a Developer, practicing Flutter 💙 for about 20 months, worked with 2 startups and currently contributing to [CollAction](https://github.com/CollActionteam/collaction_app).
-- 🌱 I’m currently learning JavaScript and Kotlin.
+- 🔭 I’m a Flutter Developer 💙.
+- 👨🏻‍💻 I'm currently working [@dyte-in](https://www.dyte.io) as a Mobile Developer.
+- 🗂️ I'm currently contributing to [CollAction](https://github.com/CollActionteam/collaction_app) and have contributed to several open source projects.
+- 🌱 I’m currently learning Swift and Kotlin.
 - 👯 I’m looking to collaborate on interesting open-source projects.
 - 💬 Ask me about Dart/Flutter anytime.
 - 😄 Pronouns: He/Him
