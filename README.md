@@ -2,12 +2,12 @@
 
 ### Hi there 👋
 
-- 🔭 I’m a Software Developer working on KMM & Flutter 💙.
+- 🔭 I’m a Software Developer working on KMM & Flutter.
 - 👨🏻‍💻 I'm currently working [@dyte-in](https://www.dyte.io) as a Mobile Developer.
-- 🗂️ I'm currently contributing to [CollAction](https://github.com/CollActionteam/collaction_app) and have contributed to several open source projects.
-- 🌱 I’m currently learning Swift and Kotlin.
+- 🗂️ I contributed to [CollAction](https://github.com/CollActionteam/collaction_app) and have contributed to several open source projects.
+- 🌱 I'm currently hopping on Kotlin, GoLang & Java.
 - 👯 I’m looking to collaborate on interesting open-source projects.
-- 💬 Ask me about Dart/Flutter anytime.
+- 💬 Ask me about which book am I reading anytime.
 - 😄 Pronouns: He/Him
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=saksham-gt&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
