@@ -3,7 +3,7 @@
 ### Hi there 👋
 
 - 🔭 I’m a Software Developer working on KMM & Flutter.
-- 👨🏻‍💻 I'm currently working [@dyte-in](https://www.dyte.io) as a Mobile Developer.
+- 👨🏻‍💻 I'm currently working [@fam](https://www.famapp.in/) as a Mobile Developer.
 - 🗂️ I contributed to [CollAction](https://github.com/CollActionteam/collaction_app) and have contributed to several open source projects.
 - 🌱 I'm currently hopping on Kotlin, GoLang & Java.
 - 👯 I’m looking to collaborate on interesting open-source projects.
