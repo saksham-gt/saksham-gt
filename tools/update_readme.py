@@ -144,17 +144,13 @@ def render_tracks(tracks):
     ASSETS.mkdir(exist_ok=True)
     for name, colors in THEMES.items():
         (ASSETS / f"on-repeat-{name}.svg").write_text(tracks_card(tracks, covers, colors), encoding="utf-8")
-    links = []
-    for number, track in enumerate(tracks, 1):
-        artists = ", ".join(md(artist["name"]) for artist in track["artists"])
-        links.append(f"{number}. [{md(track['name'])}]({track['external_urls']['spotify']}) by {artists}")
     alt = "Top tracks of the last four weeks: " + "; ".join(clip(track["name"], 40) for track in tracks)
+    # An image can carry one link, so the card opens the top track.
     return (
-        "<picture>\n"
+        f'<a href="{tracks[0]["external_urls"]["spotify"]}"><picture>\n'
         '  <source media="(prefers-color-scheme: dark)" srcset="assets/on-repeat-dark.svg">\n'
         f'  <img src="assets/on-repeat-light.svg" width="600" alt="{escape(alt, {chr(34): "&quot;"})}">\n'
-        "</picture>\n\n"
-        "<details>\n<summary>Listen on Spotify</summary>\n\n" + "\n".join(links) + "\n\n</details>"
+        "</picture></a>"
     )
 
 
