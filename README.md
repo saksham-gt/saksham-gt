@@ -30,9 +30,7 @@ More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 - [`youtube-transcript-automation`](https://github.com/saksham-gt/youtube-transcript-automation): pull a transcript out of any YouTube video with one Whisper-powered command.
 - [`design-patterns-in-flutter`](https://github.com/saksham-gt/design-patterns-in-flutter): the Gang of Four patterns, worked through in Dart.
 - [`chat_messaging_via_websockets`](https://github.com/saksham-gt/chat_messaging_via_websockets): real-time chat in Flutter over WebSockets.
-- [`learning-go-by-example`](https://github.com/saksham-gt/learning-go-by-example): my notes and exercises from picking up Go.
 - [`my-nvim`](https://github.com/saksham-gt/my-nvim): the Neovim config I work in every day.
-- [`tils`](https://github.com/saksham-gt/tils): small things I learn, written down as I go.
 
 ### <img src="assets/icon-music.svg" width="22" height="22" align="absmiddle" alt=""> On repeat
 
