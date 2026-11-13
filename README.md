@@ -3,9 +3,19 @@
   <img src="assets/header-light.svg" width="600" alt="Saksham Gupta: engineer at Fam, previously at Dyte. Problem solver, martial artist, Punjabi music fan, open source contributor.">
 </picture>
 
-I'm a developer who loves problem solving. I work as an engineer at [Fam](https://www.famapp.in/), and before that I was at [Dyte](https://dyte.io). I write about what I learn at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
+I'm a developer who loves problem solving. I work as an engineer at [Fam](https://www.famapp.in/), and before that I was at [Dyte](https://dyte.io) (**now Cloudflare**). I write about what I learn at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 
 Away from the keyboard I train in martial arts, usually with Punjabi music on.
+
+### Experience
+
+| Role | Where | When |
+| --- | --- | --- |
+| Software Engineer | [Fam](https://www.famapp.in/) | May 2025 to present |
+| Mobile Developer | [Dyte](https://dyte.io) (**now Cloudflare**) | Oct 2022 to May 2025 |
+| Flutter Developer | [CollAction](https://github.com/CollActionteam/collaction_app) | Aug 2021 to Aug 2023 |
+
+Earlier: Flutter Developer at ether, Developer Champ at SAWO Labs, App Developer at Tridhee Technologies.
 
 ### Latest writing
 
