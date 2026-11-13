@@ -41,7 +41,11 @@ More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 ### On repeat
 
 <!-- spotify:start -->
-Mostly Punjabi music.
+1. [If I Was A... - Top 6 Medley](https://open.spotify.com/track/21Kjwtw7Nv25WtRJRcccKe) by whysoKai, harmeeet, Dhadkan, Dflacko, Raaj Babu, Ansh4sure, Aditya Pushkarna
+2. [Sootam Paad](https://open.spotify.com/track/5AOdQy1iv3NIqmx4HT2i08) by Bhaktaaa, Dhadkan, Aditya Pushkarna
+3. [Ambarsaria](https://open.spotify.com/track/7ezwQRnTv16UqaufzvWP3j) by Navaan Sandhu, Homeboy, Kaater
+4. [Payback](https://open.spotify.com/track/4fFBcGNvdvVe3uURfpazGv) by whysoKai, Aditya Pushkarna
+5. [Carnivorous](https://open.spotify.com/track/6bbrVkzTvDCM7jTO9c9vnj) by Parv Music, whysoKai, Aditya Pushkarna
 <!-- spotify:end -->
 
 ### Say hi
