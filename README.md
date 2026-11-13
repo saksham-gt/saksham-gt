@@ -34,10 +34,6 @@ More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 - [`my-nvim`](https://github.com/saksham-gt/my-nvim): the Neovim config I work in every day.
 - [`tils`](https://github.com/saksham-gt/tils): small things I learn, written down as I go.
 
-### Toolbox
-
-`Dart` `Flutter` `Kotlin` `Kotlin Multiplatform` `Go` `Java` `Lua` `Neovim`
-
 ### On repeat
 
 <!-- spotify:start -->
