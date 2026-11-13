@@ -7,7 +7,7 @@ Writes assets/oss-<slug>-{dark,light}.svg.
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-from gen_header import FONT, THEMES
+from gen_header import FONT, THEMES, palette
 
 ASSETS = Path(__file__).resolve().parent.parent / "assets"
 
@@ -20,16 +20,16 @@ PROJECTS = [
 
 WIDTH, HEIGHT = 188, 96
 
-# Heading icons: outlines from Feather (feathericons.com, MIT). Each has its own
-# mid-tone colour that reads on both light and dark backgrounds, so no
-# per-theme copies are needed.
+# Heading icons: outlines from Feather (feathericons.com, MIT), drawn dark on a
+# pastel chip so one file reads on both light and dark backgrounds.
 ICON_COLORS = {
-    "writing": "#388bfd",
-    "open-source": "#8957e5",
-    "made": "#d4762c",
-    "music": "#db61a2",
-    "hi": "#1b9aaa",
+    "writing": "#bde0fe",
+    "open-source": "#cdb4db",
+    "made": "#ffd6a5",
+    "music": "#ffc8dd",
+    "hi": "#b9fbc0",
 }
+ICON_INK = "#2b2d42"
 ICONS = {
     "writing": '<path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>',
     "open-source": '<circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/>',
@@ -43,8 +43,10 @@ ICONS = {
 
 def icon(name, paths):
     return (
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" '
-        f'stroke="{ICON_COLORS[name]}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{paths}</svg>\n'
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">'
+        f'<rect width="24" height="24" rx="7" fill="{ICON_COLORS[name]}"/>'
+        f'<g transform="translate(5.4 5.4) scale(0.55)" fill="none" stroke="{ICON_INK}" stroke-width="2.6" '
+        f'stroke-linecap="round" stroke-linejoin="round">{paths}</g></svg>\n'
     )
 
 
@@ -58,11 +60,11 @@ def oss_tile(colors, title, count):
         f'fill="{colors["bg"]}" stroke="{colors["border"]}"/>\n'
         f'<g font-family="{FONT}">\n'
         f'<text x="16" y="28" font-size="14" font-weight="700" fill="{colors["text"]}">{escape(title)}</text>\n'
-        f'<text x="16" y="66" font-size="34" font-weight="700" fill="{colors["oss"]}">{count}</text>\n'
+        f'<text x="16" y="66" font-size="34" font-weight="700" fill="{colors["accent"]}">{count}</text>\n'
         f'<text x="{16 + len(str(count)) * 20.4 + 8:.1f}" y="66" font-size="12" fill="{colors["muted"]}">'
         f"merged PR{'s' if count != 1 else ''}</text>\n"
         f'<rect x="16" y="78" width="156" height="4" rx="2" fill="{colors["border"]}"/>\n'
-        f'<rect x="16" y="78" width="{156 * count / most:.1f}" height="4" rx="2" fill="{colors["oss"]}">'
+        f'<rect x="16" y="78" width="{156 * count / most:.1f}" height="4" rx="2" fill="{colors["accent"]}">'
         f'<animate attributeName="width" from="0" to="{156 * count / most:.1f}" dur="1s" fill="freeze"/></rect>\n'
         f"</g>\n</svg>\n"
     )
@@ -70,7 +72,8 @@ def oss_tile(colors, title, count):
 
 def main():
     ASSETS.mkdir(exist_ok=True)
-    for name, colors in THEMES.items():
+    for name in THEMES:
+        colors = palette(name, "oss")
         for slug, title, count in PROJECTS:
             (ASSETS / f"oss-{slug}-{name}.svg").write_text(oss_tile(colors, title, count), encoding="utf-8")
     for name, paths in ICONS.items():

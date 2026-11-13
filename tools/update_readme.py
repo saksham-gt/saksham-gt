@@ -23,7 +23,7 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-from gen_header import FONT, THEMES
+from gen_header import FONT, THEMES, palette
 
 README = Path(__file__).resolve().parent.parent / "README.md"
 ASSETS = README.parent / "assets"
@@ -103,7 +103,7 @@ def tracks_card(tracks, covers, colors):
     row_h, top, size = 54, 56, 40
     height = top + len(tracks) * row_h + 8
     bars = "".join(
-        f'<rect x="{PAD_X + i * 7}" y="20" width="4" height="16" rx="2" fill="{colors["music"]}">'
+        f'<rect x="{PAD_X + i * 7}" y="20" width="4" height="16" rx="2" fill="{colors["accent"]}">'
         f'<animate attributeName="height" values="{a};{b};{a}" dur="{dur}s" repeatCount="indefinite"/>'
         f'<animate attributeName="y" values="{36 - a};{36 - b};{36 - a}" dur="{dur}s" repeatCount="indefinite"/></rect>'
         for i, (a, b, dur) in enumerate([(6, 16, 0.9), (16, 5, 1.1), (9, 16, 0.7), (14, 4, 1.3)])
@@ -142,8 +142,9 @@ def render_tracks(tracks):
     """Write the on-repeat cards and return the README block that shows them."""
     covers = [cover_data_uri(track) for track in tracks]
     ASSETS.mkdir(exist_ok=True)
-    for name, colors in THEMES.items():
-        (ASSETS / f"on-repeat-{name}.svg").write_text(tracks_card(tracks, covers, colors), encoding="utf-8")
+    for name in THEMES:
+        card = tracks_card(tracks, covers, palette(name, "music"))
+        (ASSETS / f"on-repeat-{name}.svg").write_text(card, encoding="utf-8")
     alt = "Top tracks of the last four weeks: " + "; ".join(clip(track["name"], 40) for track in tracks)
     # An image can carry one link, so the card opens the top track.
     return (

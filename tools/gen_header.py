@@ -25,16 +25,29 @@ FONT = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mo
 
 TYPE_S, ERASE_S, HOLD_S, GAP_S = 0.055, 0.025, 1.9, 0.45
 
+# Pastel palette. Dark theme: pastel accents on the dark card. Light theme:
+# pastel-tinted cards with a deeper shade of the same hue for accents, since
+# pastel text on white is too faint to read.
 THEMES = {
     "dark": dict(
-        bg="#0d1117", border="#30363d", text="#e6edf3", muted="#8b949e",
-        accent="#f0883e", oss="#a371f7", music="#f778ba",
+        base=dict(bg="#0d1117", border="#30363d", text="#e6edf3", muted="#8b949e"),
+        header=dict(accent="#ffd6a5"),
+        oss=dict(accent="#cdb4db"),
+        music=dict(accent="#ffc8dd"),
     ),
     "light": dict(
-        bg="#ffffff", border="#d0d7de", text="#1f2328", muted="#59636e",
-        accent="#bc4c00", oss="#8250df", music="#bf3989",
+        base=dict(text="#2b2d42", muted="#5c6170"),
+        header=dict(bg="#fff6ec", border="#ffd6a5", accent="#c8553d"),
+        oss=dict(bg="#f6f0fa", border="#cdb4db", accent="#7b5ea7"),
+        music=dict(bg="#fff1f6", border="#ffc8dd", accent="#c9567f"),
     ),
 }
+
+
+def palette(theme, card):
+    """Colours for one card ("header", "oss" or "music") in one theme."""
+    return {**THEMES[theme]["base"], **THEMES[theme][card]}
+
 
 LEFT = 24
 TYPED_X = LEFT + 2 * CHAR_W  # after the "> " prompt
@@ -116,9 +129,9 @@ def main():
         raise SystemExit(f"Lines over {MAX_CHARS} chars: {too_long}")
     out = Path(__file__).resolve().parent.parent / "assets"
     out.mkdir(exist_ok=True)
-    for name, colors in THEMES.items():
+    for name in THEMES:
         path = out / f"header-{name}.svg"
-        path.write_text(build(colors), encoding="utf-8")
+        path.write_text(build(palette(name, "header")), encoding="utf-8")
         print(f"wrote {path.relative_to(out.parent)} ({path.stat().st_size} bytes)")
 
 
