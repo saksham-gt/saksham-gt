@@ -1,16 +1,51 @@
-![banner1](https://images.weserv.nl/?url=https://user-images.githubusercontent.com/55953830/171988157-6c89b8bd-2c6f-4375-8001-61230d1c09ac.png&w=700&h=275&fit=contain&trim)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="600" alt="Saksham Gupta: engineer at Fam, previously at Dyte. Problem solver, martial artist, Punjabi music fan, open source contributor.">
+</picture>
 
-### Hi there 👋
+I'm a developer who loves problem solving. I work as an engineer at [Fam](https://www.famapp.in/), and before that I was at [Dyte](https://dyte.io). I write about what I learn at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 
-- 🔭 I’m a Software Developer working on KMM & Flutter.
-- 👨🏻‍💻 I'm currently working [@fam](https://www.famapp.in/) as a Mobile Developer.
-- 🗂️ I contributed to [CollAction](https://github.com/CollActionteam/collaction_app) and have contributed to several open source projects.
-- 🌱 I'm currently hopping on Kotlin, GoLang & Java.
-- 👯 I’m looking to collaborate on interesting open-source projects.
-- 💬 Ask me about which book am I reading anytime.
-- 😄 Pronouns: He/Him
+Away from the keyboard I train in martial arts, usually with Punjabi music on.
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=saksham-gt&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+### Latest writing
 
+<!-- blog:start -->
+- [Building a Sentiment Analysis Workflow with LangChain](https://blogs.sakshamgt.com/posts/langchain-intro/) <sub>May 2026</sub>
+- [Creating Vector Embeddings for Textual Data Using BERT From Scratch](https://blogs.sakshamgt.com/posts/creating-vector-embeddings-with-bert/) <sub>May 2026</sub>
+- [Sero Listens — Social Listening Tool](https://blogs.sakshamgt.com/posts/sero-listens-social-listening-tool/) <sub>Apr 2026</sub>
+<!-- blog:end -->
 
-<!-- - 📫 How to reach me: [<img src="https://user-images.githubusercontent.com/55953830/171826102-2592a222-208a-4cbb-ae54-4cb0eb131397.jpg" height="30px" width="30px">](https://www.twitter.com/sakshamgupta392) & [![LinkedIn]<img src="https://user-images.githubusercontent.com/55953830/171822038-ecb1e30c-8b12-45a5-bd41-874cff77574c.gif" height="30px" width="30px">](https://www.linkedin.com/in/sudo-saksham) -->
+More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
+
+### Open source
+
+| Project | What it is | My work |
+| --- | --- | --- |
+| [CollAction](https://github.com/CollActionteam/collaction_app) | Cross-platform app for collective action | [24 merged PRs](https://github.com/CollActionteam/collaction_app/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged) |
+| [Talawa](https://github.com/PalisadoesFoundation/talawa) | Community organization management software | [5 merged PRs](https://github.com/PalisadoesFoundation/talawa/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged) |
+| [flutter-tflite](https://github.com/tensorflow/flutter-tflite) | TensorFlow Lite plugin for Flutter | [2 merged PRs](https://github.com/tensorflow/flutter-tflite/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged) |
+
+### Things I've made
+
+- [`youtube-transcript-automation`](https://github.com/saksham-gt/youtube-transcript-automation): pull a transcript out of any YouTube video with one Whisper-powered command.
+- [`design-patterns-in-flutter`](https://github.com/saksham-gt/design-patterns-in-flutter): the Gang of Four patterns, worked through in Dart.
+- [`chat_messaging_via_websockets`](https://github.com/saksham-gt/chat_messaging_via_websockets): real-time chat in Flutter over WebSockets.
+- [`learning-go-by-example`](https://github.com/saksham-gt/learning-go-by-example): my notes and exercises from picking up Go.
+- [`my-nvim`](https://github.com/saksham-gt/my-nvim): the Neovim config I work in every day.
+- [`tils`](https://github.com/saksham-gt/tils): small things I learn, written down as I go.
+
+### Toolbox
+
+`Dart` `Flutter` `Kotlin` `Kotlin Multiplatform` `Go` `Java` `Lua` `Neovim`
+
+### On repeat
+
+<!-- spotify:start -->
+Mostly Punjabi music.
+<!-- spotify:end -->
+
+### Say hi
+
+[Blog](https://blogs.sakshamgt.com) · [Twitter](https://twitter.com/sakshamgt) · [LinkedIn](https://www.linkedin.com/in/saksham-gt/) · Ask me which book I'm reading.
+
+<sub>He/him · Bangalore, India</sub>
