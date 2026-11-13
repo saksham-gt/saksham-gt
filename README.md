@@ -7,16 +7,6 @@ I'm a developer who loves problem solving. I work as an engineer at [Fam](https:
 
 Away from the keyboard I train in martial arts, usually with Punjabi music on.
 
-### Experience
-
-| Role | Where | When |
-| --- | --- | --- |
-| Software Engineer | [Fam](https://www.famapp.in/) | May 2025 to present |
-| Mobile Developer | [Dyte](https://dyte.io) (**now Cloudflare**) | Oct 2022 to May 2025 |
-| Flutter Developer | [CollAction](https://github.com/CollActionteam/collaction_app) | Aug 2021 to Aug 2023 |
-
-Earlier: Flutter Developer at ether, Developer Champ at SAWO Labs, App Developer at Tridhee Technologies.
-
 ### Latest writing
 
 <!-- blog:start -->
@@ -29,11 +19,11 @@ More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 
 ### Open source
 
-| Project | What it is | My work |
-| --- | --- | --- |
-| [CollAction](https://github.com/CollActionteam/collaction_app) | Cross-platform app for collective action | [24 merged PRs](https://github.com/CollActionteam/collaction_app/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged) |
-| [Talawa](https://github.com/PalisadoesFoundation/talawa) | Community organization management software | [5 merged PRs](https://github.com/PalisadoesFoundation/talawa/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged) |
-| [flutter-tflite](https://github.com/tensorflow/flutter-tflite) | TensorFlow Lite plugin for Flutter | [2 merged PRs](https://github.com/tensorflow/flutter-tflite/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged) |
+<p>
+  <a href="https://github.com/CollActionteam/collaction_app/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/oss-collaction-dark.svg"><img src="assets/oss-collaction-light.svg" width="188" alt="CollAction: 24 merged pull requests"></picture></a>
+  <a href="https://github.com/PalisadoesFoundation/talawa/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/oss-talawa-dark.svg"><img src="assets/oss-talawa-light.svg" width="188" alt="Talawa: 5 merged pull requests"></picture></a>
+  <a href="https://github.com/tensorflow/flutter-tflite/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/oss-flutter-tflite-dark.svg"><img src="assets/oss-flutter-tflite-light.svg" width="188" alt="flutter-tflite: 2 merged pull requests"></picture></a>
+</p>
 
 ### Things I've made
 
@@ -51,11 +41,21 @@ More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 ### On repeat
 
 <!-- spotify:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/on-repeat-dark.svg">
+  <img src="assets/on-repeat-light.svg" width="600" alt="Top tracks of the last four weeks: If I Was A... - Top 6 Medley; Sootam Paad; Ambarsaria; Payback; Carnivorous">
+</picture>
+
+<details>
+<summary>Listen on Spotify</summary>
+
 1. [If I Was A... - Top 6 Medley](https://open.spotify.com/track/21Kjwtw7Nv25WtRJRcccKe) by whysoKai, harmeeet, Dhadkan, Dflacko, Raaj Babu, Ansh4sure, Aditya Pushkarna
 2. [Sootam Paad](https://open.spotify.com/track/5AOdQy1iv3NIqmx4HT2i08) by Bhaktaaa, Dhadkan, Aditya Pushkarna
 3. [Ambarsaria](https://open.spotify.com/track/7ezwQRnTv16UqaufzvWP3j) by Navaan Sandhu, Homeboy, Kaater
 4. [Payback](https://open.spotify.com/track/4fFBcGNvdvVe3uURfpazGv) by whysoKai, Aditya Pushkarna
 5. [Carnivorous](https://open.spotify.com/track/6bbrVkzTvDCM7jTO9c9vnj) by Parv Music, whysoKai, Aditya Pushkarna
+
+</details>
 <!-- spotify:end -->
 
 ### Say hi

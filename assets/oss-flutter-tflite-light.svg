@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 96" width="188" height="96" role="img" aria-label="flutter-tflite: 2 merged pull requests">
+<rect x="0.5" y="0.5" width="187" height="95" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<text x="16" y="28" font-size="14" font-weight="700" fill="#1f2328">flutter-tflite</text>
+<text x="16" y="66" font-size="34" font-weight="700" fill="#1a7f37">2</text>
+<text x="44.4" y="66" font-size="12" fill="#59636e">merged PRs</text>
+<rect x="16" y="78" width="156" height="4" rx="2" fill="#d0d7de"/>
+<rect x="16" y="78" width="13.0" height="4" rx="2" fill="#1a7f37"><animate attributeName="width" from="0" to="13.0" dur="1s" fill="freeze"/></rect>
+</g>
+</svg>
