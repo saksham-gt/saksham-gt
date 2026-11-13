@@ -12,7 +12,7 @@ NAME = "Saksham Gupta"
 # Lines that get typed and erased in turn. Keep each under MAX_CHARS.
 LINES = [
     "engineer at Fam, previously at Dyte",
-    "problem solver, martial artist, Punjabi music fan",
+    "problem solver, martial artist, music lover",
     "open source: CollAction, Talawa, flutter-tflite",
     "writing at blogs.sakshamgt.com",
 ]

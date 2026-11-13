@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="600" alt="Saksham Gupta: engineer at Fam, previously at Dyte. Problem solver, martial artist, Punjabi music fan, open source contributor.">
+  <img src="assets/header-light.svg" width="600" alt="Saksham Gupta: engineer at Fam, previously at Dyte. Problem solver, martial artist, music lover, open source contributor.">
 </picture>
 
 I'm a developer who loves problem solving. I work as an engineer at [Fam](https://www.famapp.in/), and before that I was at [Dyte](https://dyte.io) (**now Cloudflare**). I write about what I learn at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
