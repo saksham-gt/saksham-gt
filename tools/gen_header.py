@@ -26,8 +26,14 @@ FONT = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mo
 TYPE_S, ERASE_S, HOLD_S, GAP_S = 0.055, 0.025, 1.9, 0.45
 
 THEMES = {
-    "dark": dict(bg="#0d1117", border="#30363d", text="#e6edf3", muted="#8b949e", accent="#3fb950"),
-    "light": dict(bg="#ffffff", border="#d0d7de", text="#1f2328", muted="#59636e", accent="#1a7f37"),
+    "dark": dict(
+        bg="#0d1117", border="#30363d", text="#e6edf3", muted="#8b949e",
+        accent="#f0883e", oss="#a371f7", music="#f778ba",
+    ),
+    "light": dict(
+        bg="#ffffff", border="#d0d7de", text="#1f2328", muted="#59636e",
+        accent="#bc4c00", oss="#8250df", music="#bf3989",
+    ),
 }
 
 LEFT = 24

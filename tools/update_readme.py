@@ -103,7 +103,7 @@ def tracks_card(tracks, covers, colors):
     row_h, top, size = 54, 56, 40
     height = top + len(tracks) * row_h + 8
     bars = "".join(
-        f'<rect x="{PAD_X + i * 7}" y="20" width="4" height="16" rx="2" fill="{colors["accent"]}">'
+        f'<rect x="{PAD_X + i * 7}" y="20" width="4" height="16" rx="2" fill="{colors["music"]}">'
         f'<animate attributeName="height" values="{a};{b};{a}" dur="{dur}s" repeatCount="indefinite"/>'
         f'<animate attributeName="y" values="{36 - a};{36 - b};{36 - a}" dur="{dur}s" repeatCount="indefinite"/></rect>'
         for i, (a, b, dur) in enumerate([(6, 16, 0.9), (16, 5, 1.1), (9, 16, 0.7), (14, 4, 1.3)])

@@ -2,9 +2,9 @@
 <rect x="0.5" y="0.5" width="187" height="95" rx="10" fill="#ffffff" stroke="#d0d7de"/>
 <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
 <text x="16" y="28" font-size="14" font-weight="700" fill="#1f2328">Talawa</text>
-<text x="16" y="66" font-size="34" font-weight="700" fill="#1a7f37">5</text>
+<text x="16" y="66" font-size="34" font-weight="700" fill="#8250df">5</text>
 <text x="44.4" y="66" font-size="12" fill="#59636e">merged PRs</text>
 <rect x="16" y="78" width="156" height="4" rx="2" fill="#d0d7de"/>
-<rect x="16" y="78" width="32.5" height="4" rx="2" fill="#1a7f37"><animate attributeName="width" from="0" to="32.5" dur="1s" fill="freeze"/></rect>
+<rect x="16" y="78" width="32.5" height="4" rx="2" fill="#8250df"><animate attributeName="width" from="0" to="32.5" dur="1s" fill="freeze"/></rect>
 </g>
 </svg>

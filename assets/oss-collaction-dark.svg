@@ -2,9 +2,9 @@
 <rect x="0.5" y="0.5" width="187" height="95" rx="10" fill="#0d1117" stroke="#30363d"/>
 <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
 <text x="16" y="28" font-size="14" font-weight="700" fill="#e6edf3">CollAction</text>
-<text x="16" y="66" font-size="34" font-weight="700" fill="#3fb950">24</text>
+<text x="16" y="66" font-size="34" font-weight="700" fill="#a371f7">24</text>
 <text x="64.8" y="66" font-size="12" fill="#8b949e">merged PRs</text>
 <rect x="16" y="78" width="156" height="4" rx="2" fill="#30363d"/>
-<rect x="16" y="78" width="156.0" height="4" rx="2" fill="#3fb950"><animate attributeName="width" from="0" to="156.0" dur="1s" fill="freeze"/></rect>
+<rect x="16" y="78" width="156.0" height="4" rx="2" fill="#a371f7"><animate attributeName="width" from="0" to="156.0" dur="1s" fill="freeze"/></rect>
 </g>
 </svg>
