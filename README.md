@@ -7,7 +7,7 @@ I'm a developer who loves problem solving. I work as an engineer at [Fam](https:
 
 Away from the keyboard I train in martial arts, usually with Punjabi music on.
 
-### Latest writing
+### <img src="assets/icon-writing.svg" width="22" height="22" align="absmiddle" alt=""> Latest writing
 
 <!-- blog:start -->
 - [Building a Sentiment Analysis Workflow with LangChain](https://blogs.sakshamgt.com/posts/langchain-intro/) <sub>May 2026</sub>
@@ -17,7 +17,7 @@ Away from the keyboard I train in martial arts, usually with Punjabi music on.
 
 More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 
-### Open source
+### <img src="assets/icon-open-source.svg" width="22" height="22" align="absmiddle" alt=""> Open source
 
 <p>
   <a href="https://github.com/CollActionteam/collaction_app/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/oss-collaction-dark.svg"><img src="assets/oss-collaction-light.svg" width="188" alt="CollAction: 24 merged pull requests"></picture></a>
@@ -25,7 +25,7 @@ More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
   <a href="https://github.com/tensorflow/flutter-tflite/pulls?q=is%3Apr+author%3Asaksham-gt+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/oss-flutter-tflite-dark.svg"><img src="assets/oss-flutter-tflite-light.svg" width="188" alt="flutter-tflite: 2 merged pull requests"></picture></a>
 </p>
 
-### Things I've made
+### <img src="assets/icon-made.svg" width="22" height="22" align="absmiddle" alt=""> Things I've made
 
 - [`youtube-transcript-automation`](https://github.com/saksham-gt/youtube-transcript-automation): pull a transcript out of any YouTube video with one Whisper-powered command.
 - [`design-patterns-in-flutter`](https://github.com/saksham-gt/design-patterns-in-flutter): the Gang of Four patterns, worked through in Dart.
@@ -34,7 +34,7 @@ More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 - [`my-nvim`](https://github.com/saksham-gt/my-nvim): the Neovim config I work in every day.
 - [`tils`](https://github.com/saksham-gt/tils): small things I learn, written down as I go.
 
-### On repeat
+### <img src="assets/icon-music.svg" width="22" height="22" align="absmiddle" alt=""> On repeat
 
 <!-- spotify:start -->
 <a href="https://open.spotify.com/track/21Kjwtw7Nv25WtRJRcccKe"><picture>
@@ -43,7 +43,7 @@ More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 </picture></a>
 <!-- spotify:end -->
 
-### Say hi
+### <img src="assets/icon-hi.svg" width="22" height="22" align="absmiddle" alt=""> Say hi
 
 [Blog](https://blogs.sakshamgt.com) · [Twitter](https://twitter.com/sakshamgt) · [LinkedIn](https://www.linkedin.com/in/saksham-gt/) · Ask me which book I'm reading.
 
