@@ -37,7 +37,7 @@ More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 <!-- spotify:start -->
 <a href="https://open.spotify.com/track/21Kjwtw7Nv25WtRJRcccKe"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/on-repeat-dark.svg">
-  <img src="assets/on-repeat-light.svg" width="600" alt="Top tracks of the last four weeks: If I Was A... - Top 6 Medley; Sootam Paad; Ambarsaria; IYKYK; Carnivorous">
+  <img src="assets/on-repeat-light.svg" width="600" alt="Top tracks of the last four weeks: If I Was A... - Top 6 Medley; Ambarsaria; Sootam Paad; IYKYK; Carnivorous">
 </picture></a>
 <!-- spotify:end -->
 
