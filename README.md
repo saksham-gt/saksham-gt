@@ -35,9 +35,9 @@ More at [blogs.sakshamgt.com](https://blogs.sakshamgt.com).
 ### <img src="assets/icon-music.svg" width="22" height="22" align="absmiddle" alt=""> On repeat
 
 <!-- spotify:start -->
-<a href="https://open.spotify.com/track/21Kjwtw7Nv25WtRJRcccKe"><picture>
+<a href="https://open.spotify.com/track/7ezwQRnTv16UqaufzvWP3j"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/on-repeat-dark.svg">
-  <img src="assets/on-repeat-light.svg" width="600" alt="Top tracks of the last four weeks: If I Was A... - Top 6 Medley; Ambarsaria; Sootam Paad; IYKYK; Carnivorous">
+  <img src="assets/on-repeat-light.svg" width="600" alt="Top tracks of the last four weeks: Ambarsaria; If I Was A... - Top 6 Medley; Sootam Paad; IYKYK; Carnivorous">
 </picture></a>
 <!-- spotify:end -->
 
